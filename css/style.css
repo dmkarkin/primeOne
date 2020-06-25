@@ -1764,7 +1764,7 @@ body.ie .ibg img {
 	display: inline-block;
 	font-family: "AkzidenzGrotesk";
 	text-transform: uppercase;
-	letter-spacing: 2.5;
+	letter-spacing: 2.5px;
 	font-size: 25px;
 	color: #fff;
 	margin: 0px 0px 28px 0px;
