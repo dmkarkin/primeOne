@@ -1684,13 +1684,13 @@ body.ie .ibg img {
 	/* .contacts-body__item--03 */
 }
 .contacts-body__item--01 {
-	background: url("../../img/icons/contacts/01.svg") left no-repeat;
+	background: url("../img/icons/contacts/01.svg") left no-repeat;
 }
 .contacts-body__item--02 {
-	background: url("../../img/icons/contacts/02.svg") left no-repeat;
+	background: url("../img/icons/contacts/02.svg") left no-repeat;
 }
 .contacts-body__item--03 {
-	background: url("../../img/icons/contacts/03.svg") left no-repeat;
+	background: url("../img/icons/contacts/03.svg") left no-repeat;
 }
 
 .contacts-social {
