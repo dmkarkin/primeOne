@@ -1403,6 +1403,7 @@ body.ie .ibg img {
 	line-height: 25px;
 }
 .block-private__button {
+	display: inline-block;
 	margin: 52px 0px 10px 0px;
 }
 @media (max-width: 767.98px) {
