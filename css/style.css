@@ -210,9 +210,9 @@ body.lock {
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #de5327), color-stop(70%, #e1d9b4));
-	background: -o-linear-gradient(top, #de5327 30%, #e1d9b4 70%);
-	background: linear-gradient(to bottom, #de5327 30%, #e1d9b4 70%);
+	background: -webkit-gradient(linear, left top, left bottom, from(gray), color-stop(#fcfcfc), to(gray));
+	background: -o-linear-gradient(top, gray, #fcfcfc, gray);
+	background: linear-gradient(to bottom, gray, #fcfcfc, gray);
 }
 .btn--white:hover:after {
 	-webkit-transition: all 0.3s ease 0s;
@@ -225,27 +225,20 @@ body.lock {
 	background-color: #000;
 	color: #fff;
 }
-.btn--black:after {
-	display: inline-block;
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 0%;
-	top: 0%;
-	left: 0;
+.btn--black:hover {
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #de5327), color-stop(70%, #e1d9b4));
-	background: -o-linear-gradient(top, #de5327 30%, #e1d9b4 70%);
-	background: linear-gradient(to bottom, #de5327 30%, #e1d9b4 70%);
 }
-.btn--black:hover:after {
+.btn--black:hover:hover {
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	top: 0;
-	height: 100%;
+	-webkit-transform: scale(1.07) translate(5%, -8%);
+	    -ms-transform: scale(1.07) translate(5%, -8%);
+	        transform: scale(1.07) translate(5%, -8%);
+	-webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .select-block {
