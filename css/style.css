@@ -1158,6 +1158,9 @@ body.ie .ibg img {
 	.header-bottom-menu__link::after {
 		display: none;
 	}
+	.header-bottom-menu__link:hover:after {
+		width: 0;
+	}
 }
 
 .logo {
