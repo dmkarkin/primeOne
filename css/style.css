@@ -1154,6 +1154,11 @@ body.ie .ibg img {
 	width: 100%;
 	left: 0;
 }
+@media (max-width: 767.98px) {
+	.header-bottom-menu__link::after {
+		display: none;
+	}
+}
 
 .logo {
 	/* .logo__text */
